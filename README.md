@@ -9,4 +9,5 @@ Intended to be run from scheduler or as an Automated task from MSP RMM agent.
 
 ### Example:
 ```Reboot-Long-Uptime -DaysTreshold 2 -WarningTimeSec 60
+
 - reboots the machine if it is runnint for more than 2 days with 1 minute notice to user
