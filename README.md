@@ -13,3 +13,9 @@ Reboot-Long-Uptime -DaysTreshold 2 -WarningTimeSec 60
 ```
 
 - reboots the machine if it is runnint for more than 2 days with 1 minute notice to user
+
+## Turn-Off-Fast-Startup.bat
+Turns off Fast startup feature so Windows 10 machines will not hibernate when user selects to shut the machine down. Should stop veeery long uptimes. Scraped from the web, credits inside the batch file.
+
+### Usage:
+Just run and enjoy. Intended to be run as a MSP RMM task with manual invocation.
